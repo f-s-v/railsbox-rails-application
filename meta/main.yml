@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Vadim Rastyagaev
+  description: Deploys rails to server.
+  license: BSD
+  min_ansible_version: 1.6
+  categories:
+  - development
+dependencies:
+  - f-s-v.railsbox-ruby-runtime
+  - f-s-v.railsbox-bundler-runtime
