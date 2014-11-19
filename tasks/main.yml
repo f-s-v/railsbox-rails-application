@@ -1,4 +1,4 @@
 ---
 - name: Deploy application
   connection: local
-  command: bundle exec cap {{ railsbox_deploy_env }} deploy chdir="../capistrano"
+  command: bundle exec cap {{ railsbox_deploy_env }} deploy chdir="{{railsbox_capistrano_chdir}}"
